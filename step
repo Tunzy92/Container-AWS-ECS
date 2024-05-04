@@ -1,0 +1,15 @@
+1. Launch an Ec2 instance and install and start docker
+2. create a dir for your project, create a Docker and HTML file
+3. Build docker image and run it in a detached mode with the command (docker run -d -p 80:80 --name project-container project-image.
+4. copy your public IP address and run it on GUI
+5. create a ECR, create a IAM role, attach permission and login on your terminal
+6. Authenticate your AWS with AccessKey and SecretKey
+7. login your ECR on your terminal and tag your image, then push to Amazon ECR.
+
+8. Create an Application Load Balancer
+9. create a Task definition and create a cluster
+10. create a service in the cluster
+
+sudo snap install aws-cli --classic
+
+
